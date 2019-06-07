@@ -23,10 +23,7 @@
         enableHtml: false,
         fullStyle: [
           `/*
-* Inspired by http://strml.net/
-* 大家好，我是方方
-* 二月了，好多公司都在招聘，你是不是也在准备简历呀。
-* 说做就做，我也来写一份简历！
+* 我摘抄了一首诗，想和你分享
 */
 
 /* 首先给所有元素加上过渡效果 */
@@ -63,7 +60,7 @@ html{
           transform: rotateY(10deg) translateZ(-100px) ;
 }
 
-/* 接下来我给自己准备一个编辑器 */
+/* 接下来准备一个编辑器 */
 .resumeEditor{
   position: fixed; right: 0; top: 0;
   padding: .5em;  margin: .5em;
@@ -72,13 +69,13 @@ html{
   background: white; color: #222;
   overflow: auto;
 }
-/* 好了，我开始写简历了 */
+/* 好了，让我们开始 */
 
 
 `,
           `
-/* 这个简历好像差点什么
- * 对了，这是 Markdown 格式的，我需要变成对 HR 更友好的格式
+/* 好像差点什么
+ * 对了，这是 Markdown 格式的，我需要变成对你更友好的格式
  * 简单，用开源工具翻译成 HTML 就行了
  */
 `
@@ -115,34 +112,20 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
+        fullMarkdown: `绝色
 ----
 
-资深前端工程师，资深前端讲师，现在在 [饥人谷](http://jirengu.com) 教前端课程。
+若逢新雪初霁，满月当空
 
-技能
-----
+下面平铺着皓影
 
-* 前端开发
-* Rails 开发
-* Node.js 开发
-* 前端授课
+上面流转着亮银
 
-工作经历
-----
+而你带笑地向我步来
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
+月色与雪色之间
 
-链接
-----
-
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
-
-> 如果你喜欢这个效果，Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
+你是第三种绝色
 
 `
       }
