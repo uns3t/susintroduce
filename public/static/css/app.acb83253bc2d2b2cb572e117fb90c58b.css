@@ -1,15 +1,17 @@
 
-#app[data-v-288975d1] {
+#app[data-v-b76f4cbc] {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh; position: relative;
 }
-html[data-v-288975d1] {
+html[data-v-b76f4cbc] {
   min-height: 100vh;
 }
-*[data-v-288975d1]{
+*[data-v-b76f4cbc]{
   box-sizing: border-box;
 }
+
 
 pre[data-v-2ca90776]{
 }
@@ -40,18 +42,4 @@ to {
 *{box-sizing: border-box;}
 *::before{box-sizing: border-box;}
 *::after{box-sizing: border-box;}
-#app[data-v-b76f4cbc] {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  min-height: 100vh; position: relative;
-}
-html[data-v-b76f4cbc] {
-  min-height: 100vh;
-}
-*[data-v-b76f4cbc]{
-  box-sizing: border-box;
-}
-
-
-/*# sourceMappingURL=app.c621eefefd07131600acad2fcbee2d4f.css.map*/
+/*# sourceMappingURL=app.acb83253bc2d2b2cb572e117fb90c58b.css.map*/

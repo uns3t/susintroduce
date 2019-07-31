@@ -23,11 +23,10 @@
         enableHtml: false,
         fullStyle: [
           `/*
-* Inspired by http://strml.net/
-* 大家好，我是方方
-* 二月了，好多公司都在招聘
-* 你是不是也在准备简历呀。
-* 说做就做，我也来写一份简历！
+* 大家好，我是帅气迷人的CTF超级老赛棍aa师傅
+* 快开学了，也要准备社团招新啦
+* 你有没有接触计算机安全的想法呀
+* 如果有的话，不妨继续看下去
 */
 
 /* 首先给所有元素加上过渡效果 */
@@ -37,7 +36,7 @@
 /* 白色背景太单调了，我们来点背景 */
 html {
   color: rgb(222,222,222);
-  background: rgb(0,43,54);
+  background: #808e9b;
 }
 /* 文字离边框太近了 */
 .styleEditor {
@@ -54,16 +53,16 @@ html {
 }
 /* 代码高亮 */
 .token.selector{
-  color: rgb(133,153,0);
+  color: #05c46b;
 }
 .token.property{
-  color: rgb(187,137,0);
+  color: #575fcf;
 }
 .token.punctuation{
   color: yellow;
 }
 .token.function{
-  color: rgb(42,161,152);
+  color: #ef5777;
 }
 
 /* 加点 3D 效果呗 */
@@ -82,16 +81,18 @@ html{
   padding: .5em;  margin: 2.5vh;
   width: 95vw; height: 45vh;
   border: 1px solid;
-  background: white; color: #222;
+  font-family: 华文细黑;
+  background: #1e272e;
+  color: #ff3f34;
   overflow: auto;
 }
-/* 好了，我开始写简历了 */
-
+/* 好了，我开始介绍了 */
 
 `,
+
           `
-/* 这个简历好像差点什么
- * 对了，这是 Markdown 格式的，我需要变成对 HR 更友好的格式
+/* 好像差点什么
+ * 对了，这是 Markdown 格式的
  * 简单，用开源工具翻译成 HTML 就行了
  */
 `
@@ -128,36 +129,40 @@ html{
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `方应杭
-----
+        fullMarkdown: `
+# SUS2019招新
+![](http://chuantu.xyz/t6/702/1564538209x1031866013.jpg)
+> 秉承古典黑客精神，引领一流网络安全体验
 
-资深前端工程师，资深前端讲师
-现在在 [饥人谷](http://jirengu.com) 教前端课程。
+---
+### 基本情况
+东南大学网络安全联盟成立于2005年，成员囊括了各级研究生与本科生
+所拥有的实验室位于九龙湖校区电子电工楼。同时社团作为学校CTF校队与新成立的网络安全学院联系密切
+举办了两届江苏省网络安全精英邀请赛。
 
-技能
-----
+---
+### 社团活动
+目前社团的主要活动为参与国内外的CTF竞赛，最近获得了2019年全国大学生信息安全竞赛实践赛全国一等奖
 
-* 前端开发
-* Rails 开发
-* Node.js 开发
-* 前端授课
+CTF也在最近火热的网剧中作为背景，还有一大波可爱的妹子在网络平台上询问“如何找一个打CTF的男朋友”
+CTF可以简单的理解为现实中网络攻防的简化版，其使枯燥而且存在运气成分的安全攻防变得充满游戏性。
 
-工作经历
-----
+那么，如果你对CTF充满兴趣或者以前便接触过CTF，SUS诚邀您的加入。
 
-1. [饥人谷](http://jirengu.com)
-2. 腾讯即时通讯平台部
-3. 阿里巴巴B2B部门
-4. 彩程知人项目组
+---
+### 招新方法
+开学后为新人开设由社团成员主讲的CTF各个方向系列课程，之后举办题目相对基础的招新赛，邀请成绩优异的新人加入。
 
-链接
-----
+具体的内容请您持续后续情况
 
-* [GitHub](https://github.com/frankfang)
-* [我的文章](https://www.zhihu.com/people/zhihusucks/pins/posts)
+---
+社团博客: [blog](https://susers.github.io)
+社团招新qq群（务必加入）：
+![](http://chuantu.xyz/t6/702/1564542306x1031866013.jpg)
 
-> 如果你喜欢这个效果，
-Fork [我的项目](https://github.com/jirengu-inc/animating-resume)，打造你自己的简历！
+---
+那么
+**欢迎来到hack的世界**
 
 `
       }
